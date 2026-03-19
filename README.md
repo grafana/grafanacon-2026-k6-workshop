@@ -34,12 +34,12 @@ You should have access to your own Grafana Cloud stack, for which you have admin
 
 ## Hands-on lab agenda
 
-| Topic                                              | Facilitator     | Duration | Code Snippets                                            |
+| Topic                                              | Facilitator     | Duration | Exercise Instructions                                    |
 | -------------------------------------------------- | --------------- | -------- | -------------------------------------------------------- |
 | Introduction                                       | Marie and Simon | 5 mins   |                                                          |
 | Lab setup                                          | Marie and Simon | 15 mins  |                                                          |
 | Reliability in the Developer Workflow              | Marie           | 10 mins  |                                                          |
-| Introduction to k6 and k6 Studio                   | Marie           | 30 mins  |                                                          |
+| Introduction to k6 and k6 Studio                   | Marie           | 30 mins  | [k6 Studio](./intro-to-k6-studio/exercise.md)            |
 | Break                                              |                 | 5 mins   |                                                          |
 | Introduction to k6 OSS                             | Simon           | 25 mins  | [k6 OSS](./intro-to-k6-oss)                              |
 | Introduction to Browser Testing                    | Marie           | 20 mins  | [Browser Testing](./intro-to-browser-testing/)           |
