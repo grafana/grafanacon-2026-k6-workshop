@@ -2,7 +2,7 @@
 
 ## Lab Exercise
 
-For this exercise, we will ask you to record the QuickPizza login flow, update the number of virtual users (VUs) and/or duration, and export the test locally so you can run it with k6 CLI.
+For this exercise, you are going to record the QuickPizza login flow, update the number of virtual users (VUs) and/or duration, and export the test locally so you can run it with k6 CLI.
 
 If you have any questions, let us know and we'll come and help!
 
