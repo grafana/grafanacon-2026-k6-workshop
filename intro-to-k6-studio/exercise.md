@@ -2,68 +2,79 @@
 
 ## Lab Exercise
 
-For this exercise, you are going to record the QuickPizza login flow, update the number of virtual users (VUs) and/or duration, and export the test locally so you can run it with k6 CLI.
+In this exercise, you'll use k6 Studio to record the QuickPizza login flow and turn it into a runnable k6 script. By the end, you will have:
 
-If you have any questions, let us know and we'll come and help!
+- Recorded HTTP traffic from a browser session
+- Generated a k6 script from that recording
+- Adjusted virtual users (VUs) and test duration
+- Exported and run the test locally with the k6 CLI
 
-### Record the QuickPizza login flow
+**Need help?** Raise your hand and we'll come assist you!
 
-1. Open k6 Studio application
-2. On the landing page, click **Record flow** button
-3. Add the `quickpizza.grafana.com` URL
-4. Untick the **Capture browser events** checkbox, as we don't need this feature for this exercise.
+### Step 1: Record the QuickPizza login flow
 
-    ![](./images/record-flow.png)
+1. Open the k6 Studio application.
+2. On the landing page, click **Record flow**.
+3. Enter the URL: `https://quickpizza.grafana.com`
+4. **Untick** the **Capture browser events** checkbox as we won't need this for this exercise.
 
-5. Click **Start recording** button
-6. On the QuickPizza app, perform the login flow. 
-7. Back at k6 Studio, click **Stop recording** button
+   <img src="./images/record-flow.png" alt="Record flow dialog" width="600" />
 
-### Create test from the recording
+5. Click **Start recording**.
+6. In the QuickPizza browser window that opens, perform the login flow (use username `default` and password `12345678`).
+7. Back in k6 Studio, click **Stop recording** when you're done.
 
-1. Click **Create test > HTTP test** to generate a k6 script from the HTTP requests
-2. Select `quickpizza.grafana.com` only as the allowed host to include in your test. We only want to test our system, and not any 3rd party hosts.
-3. Click **Continue** button
+### Step 2: Create a test from the recording
 
-At this point, feel free to click **Script** to see the underlying test script that k6 Studio generated.
+1. Click **Create test > HTTP test** to generate a k6 script from the captured HTTP requests.
+2. Select **only** `quickpizza.grafana.com` as the allowed host. This keeps the test focused on our system and excludes third-party hosts.
+3. Click **Continue**.
 
-### Adjust the number of VUs and/or duration
+**Tip:** Click **Script** to peek at the generated k6 script before continuing.
 
-To update the VUs and/or the duration, click **Test options** and update the values accordingly.
+### Step 3: Adjust VUs and duration
 
-> [!NOTE] 
->
-> DON'T go crazy with the numbers! Please use a sensible number of VUs and duration.
+Click **Test options** and update the number of virtual users (VUs) and/or the test duration.
 
-![](./images/test-options.png)
+> [!NOTE]
+> Use sensible values—avoid very high VU counts or long durations for this lab.
 
-### Export your test locally
+<img src="./images/test-options.png" alt="Test options" width="600" />
 
-After you have recorded a test, click the **Export script** button to export your test locally and follow the on-screen instructions.
+### Step 4: Export your test locally
 
-![Export script locally](./images/export-script-button.png)
+1. Click the **Export script** button.
+2. Follow the on-screen instructions to save the script to your machine.
 
-The exported file will have a relative path of `k6-studio/Scripts/<file-name>`.
+<img src="./images/export-script-button.png" alt="Export script locally" width="600" />
 
-To find the entire file path, click the three-dot icon beside your script name, and select **Open containing folder**.
+The script is saved under `k6-studio/Scripts/<file-name>`. To open that folder, click the three-dot icon next to your script name and select **Open containing folder**.
 
-![Script folder](./images/script-folder.png)
+<img src="./images/script-folder.png" alt="Script folder" width="600" />
 
-### Run it locally with k6
+### Step 5: Run the test with k6 CLI
 
-1. Open your terminal of choice
-2. Navigate to your folder containing the k6 Studio script using the `cd` command. For example:
+1. Open your terminal.
+2. Navigate to the folder containing your exported script:
 
-    `cd /Users/mariecruz/Documents/k6-studio/Scripts`
+   ```bash
+   cd /path/to/k6-studio/Scripts
+   ```
 
-3. Run the script by using the `k6 run` command
+   Replace `/path/to/` with your actual path (e.g. `~/Documents/k6-studio/Scripts`).
 
-    `k6 run my-script.js`
+3. Run the script:
 
-### Observe the results
+   ```bash
+   k6 run my-script.js
+   ```
 
-After running the test, you should see an output similar to the screenshot below.
+   Replace `my-script.js` with your actual script filename.
 
-![](./images/k6-test-run.png)
+### Step 6: Observe the results
 
-What do you notice immediately? Let's do a group discussion!
+After the test runs, you'll see output similar to the screenshot below.
+
+<img src="./images/k6-test-run.png" alt="k6 test run output" width="600" />
+
+**Discussion:** What do you notice in the results? Let's discuss as a group!
