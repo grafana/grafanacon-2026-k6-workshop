@@ -48,7 +48,7 @@ How you add load zones depends on whether you’re editing a script on your mach
 
 #### Option A: You’re using a local script (existing test)
 
-1. In your IDE, add a `distribution` block under `cloud` in your `options` object. For example:
+1. In your IDE, add a `distribution` object inside `cloud` in your `options`. For example:
 
    ```js
    export const options = {
@@ -80,14 +80,17 @@ How you add load zones depends on whether you’re editing a script on your mach
 
    <img src="./images/edit-test.png" alt="Edit test button" width="600" />
 
-3. In the editor, under the `cloud` section, set the `distribution` object so traffic is split across load zones. For example:
+3. In the editor, within the `cloud` section, set the `distribution` object so traffic is split across load zones. For example:
 
    ```js
-   distribution: {
-     distributionLabel1: { loadZone: 'amazon:us:ashburn', percent: 50 },
-     distributionLabel2: { loadZone: 'amazon:ie:dublin', percent: 50 },
-   },
-   ```
+  cloud: {
+    // ... projectID, name, etc.
+    distribution: {
+      distributionLabel1: { loadZone: 'amazon:us:ashburn', percent: 50 },
+      distributionLabel2: { loadZone: 'amazon:ie:dublin', percent: 50 },
+    },
+  }
+  ```
 
    <img src="./images/gc-test-editor.png" alt="Test editor with distribution" width="600" />
 
