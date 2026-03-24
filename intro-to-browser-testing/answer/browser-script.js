@@ -1,5 +1,5 @@
 import { browser } from "k6/browser";
-import { fail } from 'k6';
+import exec from "k6/execution"
 import { expect } from "https://jslib.k6.io/k6-testing/0.5.0/index.js";
 
 const BASE_URL = "https://quickpizza.grafana.com";
@@ -42,7 +42,7 @@ export default async function() {
     expect(logoutButton).toBeVisible();
     expect(logoutButton).toHaveText('Logout');
   } catch (error) {
-    fail(`Browser iteration failed: ${error.message}`);
+    exec.test.fail(`Browser test failed: ${error.message}`)
   } finally {
     await page.close();
   }

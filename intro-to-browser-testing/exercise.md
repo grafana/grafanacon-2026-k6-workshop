@@ -27,7 +27,7 @@ Copy the code below into your test file. Your job is to fill in the four steps i
 
 ```js
 import { browser } from "k6/browser";
-import { fail } from 'k6';
+import exec from "k6/execution"
 
 const BASE_URL = "https://quickpizza.grafana.com";
 
@@ -61,7 +61,7 @@ export default async function() {
     // 4. Add checks: verify the Logout button is visible and has the text "Logout"
 
   } catch (error) {
-    fail(`Browser iteration failed: ${error.message}`);
+    exec.test.fail(`Browser test failed: ${error.message}`);
   } finally {
     await page.close();
   }
