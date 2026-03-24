@@ -92,9 +92,9 @@ How you add load zones depends on whether you’re editing a script on your mach
     }
     ```
 
-<img src="./images/gc-test-editor.png" alt="Test editor with distribution" width="600" />
-
 4. Click **Run Test** to run the updated test.
+
+<img src="./images/gc-test-editor.png" alt="Test editor with distribution" width="600" />
 
 ### Load zones reference
 
