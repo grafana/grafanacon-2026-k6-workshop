@@ -24,7 +24,7 @@ Then open the file in your IDE.
 
 Copy the code below into your test file. Your job is to fill in the two steps.
 
-**Reference:** [code-snippets.md](./code-snippets.md) has the selectors, API examples, and the `expect` import you'll need for the checks in step 4.
+**Reference:** [code-snippets.md](./code-snippets.md) has code examples that will help you in this step.
 
 ```js
 import { sleep } from "k6"
