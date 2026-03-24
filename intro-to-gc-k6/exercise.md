@@ -82,7 +82,7 @@ How you add load zones depends on whether you’re editing a script on your mach
 
 3. In the editor, within the `cloud` section, set the `distribution` object so traffic is split across load zones. For example:
 
-   ```js
+    ```js
     cloud: {
       // ... projectID, name, etc.
       distribution: {
@@ -90,9 +90,9 @@ How you add load zones depends on whether you’re editing a script on your mach
         distributionLabel2: { loadZone: 'amazon:ie:dublin', percent: 50 },
       },
     }
-  ```
+    ```
 
-   <img src="./images/gc-test-editor.png" alt="Test editor with distribution" width="600" />
+<img src="./images/gc-test-editor.png" alt="Test editor with distribution" width="600" />
 
 4. Click **Run Test** to run the updated test.
 
