@@ -41,7 +41,7 @@ You should have access to your own Grafana Cloud stack, for which you have admin
 | Reliability in the Developer Workflow              | Marie           | 10 mins  |                                                          |
 | Introduction to k6 and k6 Studio                   | Marie           | 30 mins  | [k6 Studio](./intro-to-k6-studio/exercise.md)            |
 | Break                                              |                 | 5 mins   |                                                          |
-| Introduction to k6 OSS                             | Simon           | 25 mins  | [k6 OSS](./intro-to-k6-oss)                              |
+| Introduction to k6 OSS                             | Simon           | 25 mins  | [k6 OSS](./intro-to-k6-oss/exercise.md)                              |
 | Introduction to Browser Testing                    | Marie           | 20 mins  | [Browser Testing](./intro-to-browser-testing/exercise.md)|
 | Break                                              |                 | 5 mins   |                                                          |
 | Introduction to Synthetic Monitoring               | Simon           | 20 mins  | [Synthetic Monitoring](./intro-to-synthetic-monitoring/exercise.md) |

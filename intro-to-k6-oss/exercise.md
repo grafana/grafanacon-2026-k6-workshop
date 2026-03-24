@@ -1,4 +1,4 @@
-# Introduction to Browser Testing
+# Introduction to k6 OSS
 
 ## Lab Exercise
 
