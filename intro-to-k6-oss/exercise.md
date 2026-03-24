@@ -33,7 +33,7 @@ import http from "k6/http"
 export const options = {
   // 1. Define a threshold that verifies http_req_duration staying within 200ms
   
-  // 2. Use stages to simulate going from stable load to a 3X spike then back to stable load 
+  // 2. Use stages to simulate going from stable load to a 3X spike then back down again
 }
 
 export default function main() {

@@ -19,14 +19,16 @@ _Reference to k6 OSS docs for [Thresholds](https://grafana.com/docs/k6/latest/us
 
 | Key      | Description                                                      |
 | -------- | ---------------------------------------------------------------- |
-| Target   | VU (Virtual User) target to ramp up to                           |
-| Duration | Duration in time (h, m, s) to ramp up to the specified VU target |
+| target   | VU (Virtual User) target to ramp up to                           |
+| duration | Duration in time (h, m, s) to ramp up to the specified VU target |
 
 ```js
 export const options = {
+  vus: 10, // Starting at 10 VUs
   stages: [
-    { duration: "20s", target: 2 },
-    { duration: "1m", target: 5 },
+    { duration: "1m", target: 10 }, // Hold at 10 users for 1 minute
+    { duration: "30s", target: 30 }, // Ramp up to 30 users
+    { duration: "1m", target: 10 }, // Ramp down to 10 users
   ],
 }
 ```
