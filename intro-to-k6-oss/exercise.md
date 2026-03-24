@@ -2,11 +2,11 @@
 
 ## Lab Exercise
 
-In this exercise, you'll create a basic k6 script that simulates a sudden spike in traffic. By the end, your script will:
+In this exercise, you'll create a basic k6 script with a pass/fail criteria and a load profile simulating a sudden spike in traffic. By the end, your script will:
 
 - Load the home page of the QuickPizza demo site
-- Verify via `options.thresholds` that Response Times stays within 200ms
-- Use `options.stages` to simulate a sudden spike in traffic
+- Verify via `thresholds` that Response Time stay within 200ms
+- Use `stages` to simulate a sudden spike in traffic
 
 **Need help?** Raise your hand and we'll come assist you!
 
