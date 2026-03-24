@@ -59,10 +59,11 @@ export default function main() {
    
 
 **Success looks like:**
-- The test ramps up to a steady state, suddenly spikes up to 3X load then ramps down again.
+- The test ramps up to a steady state, suddenly spikes up to 3X load then ramps down again.  
   <img src="./images/spike-illustration.png" alt="Traffic spike Virtual Users chart" width="500"/>
 
-- The end of test Console summary prints a section for the defined thresholds.
+- The end of test Console summary prints a section for the defined thresholds.  
+  <img src="./images/threshold.png" alt="Threshold console summary" />
 
 
 ## Lab Answer
