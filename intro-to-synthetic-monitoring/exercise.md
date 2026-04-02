@@ -4,8 +4,8 @@
 
 In this exercise, you'll create your first Synthetic tests _(or checks as we call them)_. We'll reuse the k6 scipts we created in earlier exercises to showcase just how similar they are. By the end, you will have created two Synthetic Checks:
 
-1. Browser based Synthetic Check that verifies that QuickPizza login works as expected.
-2. HTTP Synthetic Check that verifies that QuickPizza home page is reachable.
+1. A Browser based Synthetic Check that verifies that QuickPizza login works as expected.
+2. A HTTP Synthetic Check that verifies that QuickPizza home page is reachable.
 
 **Need help?** Raise your hand and we'll come assist you!
 
@@ -17,22 +17,32 @@ Copy the k6 Browser test you created in the Introduction to Browser Testing exer
 
 Then open the file in your IDE.
 
-### Step 2: Verify the test
+### Step 2: Verify that the test is suitable as a Synthetics Test
 
-Inspect the script to make sure the steps look solid, then run the test to validate that it's working as expected.  
-In your terminal, run (replace `browser-script.js` with your actual filename):
+Things to verify:
+1. The Load: Make sure it runs **1 VU** for **1 Iteration**.
+2. Explicit Pass/Fail: The test should fail if the tested functionality is not working. 
+
+Inspect the test to Make sure above conditions are true.  
+When you are confident in the test, run the test to validate that it's running as expected.
+
+In your terminal, run the following command:
 
 ```bash
+# replace `browser-script.js` with your actual filename
+
 K6_BROWSER_HEADLESS=false k6 run browser-script.js
 ```
 
 **Success looks like:** A browser window opens, navigates to QuickPizza, logs in automatically, and the test completes with your checks passing. You'll see output indicating the test passed.
 
+Since that was so quick and did not require any modifications, let's continue with creating a HTTP Synthetic Test! 🎉
+
 ## Exercise 2: Your first HTTP Synthetic Test
 
 Copy the code below into your test file. Your job is to fill in the four steps in the middle.
 
-**Reference:** [code-snippets.md](./code-snippets.md) has the selectors, API examples, and the `expect` import you'll need for the checks in step 4.
+**Reference:** [code-snippets.md](./code-snippets.md) has the API examples you'll need in step 1, 2 and 3.
 
 ```js
 import http from "k6/http"
@@ -57,11 +67,13 @@ export default function main() {
 ### Step 3: Run your test
 
 1. Save your file.
-2. In your terminal, run (replace `http-synthetic-check.js` with your actual filename):
+2. In your terminal, run the following command:
 
-   ```bash
-   k6 run http-synthetic-check.js
-   ```
+```bash
+# replace `http-synthetic-check.js` with your actual filename
+
+k6 run http-synthetic-check.js
+```
 
 **Success looks like:** The test completes with your checks passing. You'll see a green ✔ output indicating the test passed 
 
