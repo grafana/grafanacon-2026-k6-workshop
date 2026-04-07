@@ -50,7 +50,7 @@ if (!checkResult) {
 To define a pass/fail criteria in a more readable and elegant way, we can make use of the k6-testing library from jslib.k6.io:
 
 ```js
-import { expect } from "https://jslib.k6.io/k6-testing/0.5.0/index.js"
+import { expect } from "https://jslib.k6.io/k6-testing/0.6.1/index.js"
 ```
 
 ```js

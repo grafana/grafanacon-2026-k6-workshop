@@ -1,6 +1,6 @@
 import { browser } from "k6/browser";
 import exec from "k6/execution"
-import { expect } from "https://jslib.k6.io/k6-testing/0.5.0/index.js";
+import { expect } from "https://jslib.k6.io/k6-testing/0.6.1/index.js";
 
 const BASE_URL = "https://quickpizza.grafana.com";
 

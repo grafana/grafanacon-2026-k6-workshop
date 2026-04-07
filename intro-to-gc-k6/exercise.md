@@ -4,7 +4,7 @@
 
 In this exercise, you'll get familiar with Grafana Cloud k6. By the end, you will have:
 
-- Authenticated with Grafana Cloud and run a k6 test from your machine
+- Authenticated with Grafana Cloud and started a test from your CLI
 - Completed the **Understanding test results** tour
 - Updated a test to use multiple load zones
 
@@ -18,7 +18,7 @@ Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.
 
 1. Open the Grafana menu.
 2. Go to **Testing & synthetics > Performance**.
-3. Under **Onboarding**, expand **Run a k6 test**, choose **Run a test from the CLI**, then click **Review**.
+3. Under **Onboarding**, expand **Run a k6 test**, choose **Run a test from the CLI**, then click **Start**.
 4. Follow the steps in the tour.
 
 > [!NOTE]
@@ -64,11 +64,13 @@ How you add load zones depends on whether you’re editing a script on your mach
    ```
 
 2. Save your file.
-3. From your project folder, run the test in Grafana Cloud (replace `test-file.js` with your script’s name):
+3. From your project folder, run the test in Grafana Cloud using the following command:
 
-   ```bash
-   k6 cloud run test-file.js
-   ```
+```bash
+# replace `test-file.js` with your actual filename
+
+k6 cloud run test-file.js
+```
 
 #### Option B: You’re using a test from the "Run a test from the CLI" tour
 
