@@ -52,7 +52,7 @@ The script is saved under `k6-studio/Scripts/<file-name>`. To open that folder, 
 
 <img src="./images/script-folder.png" alt="Script folder" width="600" />
 
-### Step 5: Run the test with k6 CLI
+### Step 5: Run the test with k6 CLI (optional)
 
 1. Open your terminal.
 2. Navigate to the folder containing your exported script:
@@ -71,10 +71,8 @@ The script is saved under `k6-studio/Scripts/<file-name>`. To open that folder, 
 
    Replace `my-script.js` with your actual script filename.
 
-### Step 6: Observe the results
+### Step 6: Check the results (optional)
 
 After the test runs, you'll see output similar to the screenshot below.
 
 <img src="./images/k6-test-run.png" alt="k6 test run output" width="600" />
-
-**Discussion:** What do you notice in the results? Let's discuss as a group!
