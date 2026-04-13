@@ -13,7 +13,9 @@ export const options = {
 }
 ```
 
-_Reference to k6 OSS docs for [Thresholds](https://grafana.com/docs/k6/latest/using-k6/thresholds/)_
+_Reference to k6 OSS docs for [Thresholds](https://grafana.com/docs/k6/latest/using-k6/thresholds/)_  
+_Reference to k6 OSS docs for [Metrics](https://grafana.com/docs/k6/latest/using-k6/metrics/reference/)_
+
 
 ## Stages
 
