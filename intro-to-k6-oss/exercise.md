@@ -15,7 +15,7 @@ In this exercise, you'll create a basic k6 script with a pass/fail criteria and 
 Create a new JavaScript file in a folder of your choice. For example, in your terminal:
 
 ```bash
-touch spike-test.js
+touch spike.js
 ```
 
 Then open the file in your IDE.
@@ -46,16 +46,16 @@ export default function main() {
 ### Step 3: Run your test
 
 1. Save your file.
-2. In your terminal, run (replace `spike-test.js` with your actual filename):
+2. In your terminal, run (replace `spike.js` with your actual filename):
 
    ```bash
-   K6_WEB_DASHBOARD_EXPORT=test-report.html k6 run spike-test.js
+   K6_WEB_DASHBOARD_EXPORT=test-report.html k6 run spike.js
    ```
 
    **Tip:**
    - Setting `K6_WEB_DASHBOARD=true` visualizes the metrics in a simple web dashboard so you can watch the test live, helpful when modeling the ramping curve.
    
-   - Setting `K6_WEB_DASHBOARD_EXPORT=spike-test-report.html` produces a html report of the test result, helpful for analyzing the result. 
+   - Setting `K6_WEB_DASHBOARD_EXPORT=spike-report.html` produces a html report of the test result, helpful for analyzing the result. 
    
 
 **Success looks like:**
@@ -68,5 +68,5 @@ export default function main() {
 
 ## Lab Answer
 
-Once you've completed the exercise, you can compare your solution with our sample answer. The reference implementation in [spike-test.js](./answer/spike-test.js) shows one way to define a pass/fail criteria and modelling a spike in load.
+Once you've completed the exercise, you can compare your solution with our sample answer. The reference implementation in [spike.js](./answer/spike.js) shows one way to define a pass/fail criteria and modelling a spike in load.
 
