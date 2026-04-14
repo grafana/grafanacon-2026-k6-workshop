@@ -4,8 +4,8 @@
 
 In this exercise, you'll get familiar with Grafana Cloud Synthetics. By the end, you will have:
 
-- Deployed your first Synthetic Check to Grafana Cloud, verifying that the QuickPizza website is available
-- (Bonus): Deployed your first Synthetic Browser Check, verifying that the QuickPizza login works like expected
+- Deployed your first Synthetic Check to Grafana Cloud, verifying that the QuickPizza website is reachable.
+- (Bonus): Deployed your first Synthetic Browser Check, verifying that the QuickPizza login works as expected.
 
 **Need help?** Raise your hand and we'll come assist you!
 
@@ -15,7 +15,7 @@ In this exercise, you'll get familiar with Grafana Cloud Synthetics. By the end,
 
 Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.grafana.net`) and sign in.
 
-### Step 2: Take the "Create new Scripted Synthetics Check" Pathfinder journey
+### Step 2: Take the "Create new Scripted Synthetics Check" Pathfinder guide
 
 1. Click the question mark in the top right
 2. Scroll down to the "Interactive Guide: Create a new Scripted Synthetic Monitoring Check" 
