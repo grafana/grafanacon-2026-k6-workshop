@@ -11,9 +11,10 @@ In this exercise, you'll get familiar with Grafana Cloud Synthetics. By the end,
 
 ## Exercise 1: Create your first Synthetic Monitoring Check
 
-### Step 1: Sign in to your Grafana Cloud instance
+### Step 1: Sign in to your Grafana Cloud instance and navigate to Synthetics page
 
-Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.grafana.net`) and sign in.
+1. Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.grafana.net`) and sign in.
+2. From the navigation menu on the left, click **Testing & Synthetics** > **Synthetics**.
 
 ### Step 2: Take the "Create new Scripted Synthetics Check" Pathfinder guide
 
@@ -22,6 +23,12 @@ Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.
 3. Click **Start** and take the tour.
 
 <img src="./images/sm-pathfinder.png" alt="Grafana Cloud Synthetic Monitoring" width="800" />
+
+> [!IMPORTANT]
+> 
+> If the "Interactive Guide: Create a new Scripted Synthetic Monitoring Check" card is not on screen, scroll down and expand **Other documentation**, and look for the guide in that section.
+> 
+> ![](./images/sm-pathfinder-other-documentation.png)
 
 **Success looks like:** 
 The tour leads you to create your first Synthetic Monitoring Check and run it. By the end of the tour, you see check runs automatically being scheduled in the check dashboard like the following screenshot:
