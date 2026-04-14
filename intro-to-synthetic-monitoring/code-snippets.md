@@ -1,6 +1,6 @@
 # k6 Synthetics Code Snippets
 
-Quick reference for the k6 Synthetics exercise. Copy these snippets into your script as you work through the HTTP check.
+Quick reference for the k6 Synthetics exercise. Copy these snippets into your script as you work through the exercise.
 
 
 ## Options
@@ -18,43 +18,54 @@ export const options = {
 ```
 
 
-## Checks
 
-A simple check looks as follows:
+## Failing a test based on a check condition
 
-```js
-const value = "Hello world"
+There are several ways of achieving this, the two most common patterns are:
 
-const checkResult = check(value, {
-  "My description of what the check does": (val) => val === "Hello world",
-})
-```
+### 1. Using `checks` and `exec`
 
-## Failing a test
+Checks and exec are modules that come built-in with the k6 standard library.
+- See docs for [checks](https://grafana.com/docs/k6/latest/using-k6/checks/)
+- See docs for [k6/execution
+](https://grafana.com/docs/k6/latest/using-k6/checks/)
 
-For failing a test programatically, use the exec API:
 
 ```js
+import { check } from "k6"
+import http from "k6/http"
 import exec from "k6/execution"
 ```
 
 ```js
-if (!checkResult) {
-  exec.test.abort() // Abort immediately exits and does not continue the iteration
-  // exec.test.fail() // Fail marks the test as failed but continues to run the complete iteration
+export default function main() {
+  const response = http.get("https://quickpizza.grafana.com")
+
+  const isCheckSuccess = check(response, {
+    'status should be 200': (res) => res.status === 200,
+  })
+
+  if (!isCheckSuccess) {
+    exec.test.abort()
+  }
 }
 ```
 
-## Using k6-testing helper module
+### 2. Using `expect`
 
-To define a pass/fail criteria in a more readable and elegant way, we can make use of the k6-testing library from jslib.k6.io:
+k6-testing is a functional testing library, available via [jslib.k6.io](https://jslib.k6.io/). It can be directly imported as a dependency in your k6 script like in your k6 script. 
+
+- Docs for [k6-testing](https://github.com/grafana/k6-jslib-testing?tab=readme-ov-file#k6-testing)
+- jslib.k6.io is a collection of reusable JavaScript libraries that can be directly imported and used in your k6 scripts.
+
 
 ```js
+import http from "k6/http"
 import { expect } from "https://jslib.k6.io/k6-testing/0.6.1/index.js"
 ```
 
 ```js
-export default async function main() {
+export default function main() {
   const response = http.get("https://quickpizza.grafana.com")
 
   expect(response.status).toBe(200)
