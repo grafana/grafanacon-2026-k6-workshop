@@ -8,7 +8,7 @@ In this exercise, you'll create your first Synthetic test _(or check as we call 
 
 **Need help?** Raise your hand and we'll come assist you!
 
-## Step 1: Create a new test file
+### Step 1: Create a new test file
 
 Create a new JavaScript file in a folder of your choice, then open the file in your IDE.
 
