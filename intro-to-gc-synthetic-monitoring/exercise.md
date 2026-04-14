@@ -53,3 +53,11 @@ Fill out all the details necessary and complete the check.
 
 **Success looks like:** 
 Your first Browser Check is now sucessfully created, you see check runs being scheduled automatically in the check dashboard like screenshot in Execise 1.
+
+## Other Resources
+
+Check out the following resources to know more about Grafana Cloud Synthetic Monitoring
+
+- [Documentation: Synthetic Monitoring](https://grafana.com/docs/grafana-cloud/testing/synthetic-monitoring/)
+- [Documentation: Check types](https://grafana.com/docs/grafana-cloud/testing/synthetic-monitoring/create-checks/checks/)
+- [Interactive Guides: Synthetic Monitoring](https://play.grafana.org/a/grafana-synthetic-monitoring-app/home?from=now-3h&to=now&timezone=utc&var-probe=$__all&var-region=$__all&var-check_type=$__all) - try out the other interactive guides to get hands-on experience with other synthetic monitoring check types.
