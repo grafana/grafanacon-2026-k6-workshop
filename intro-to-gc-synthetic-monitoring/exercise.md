@@ -40,7 +40,7 @@ Follow the same steps you took in the Interactive guide, but this time select th
 
 In the Check creation step where you need to input a Script, take the QuickPizza login test that you created in the earlier excercise [browser-script.js](../intro-to-browser-testing/answer/browser-script.js).
 
-### Step 3: Complete the Chech creation wizard
+### Step 3: Complete the Check creation wizard
 
 Fill out all the details necessary and complete the check.
 
