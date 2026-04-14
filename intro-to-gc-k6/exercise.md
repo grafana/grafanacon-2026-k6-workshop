@@ -103,3 +103,12 @@ k6 cloud run test-file.js
 You can use more than two zones; keep percentages split evenly and **totaling 100%**.
 
 For the full list of load zones, see [Use load zones](https://grafana.com/docs/grafana-cloud/testing/k6/author-run/use-load-zones/) in the Grafana Cloud k6 documentation.
+
+## Other Resources
+
+Check out the following resources to know more about Grafana Cloud k6.
+
+- [Documentation: Grafana Cloud k6](https://grafana.com/docs/grafana-cloud/testing/k6/)
+- [How to: Use the test builder](https://grafana.com/docs/grafana-cloud/testing/k6/author-run/test-builder/)
+- [Documentation: Set up Private Load Zones](https://grafana.com/docs/grafana-cloud/testing/k6/author-run/private-load-zone/)
+- [Documentation: Correlate results in Grafana](https://grafana.com/docs/grafana-cloud/testing/k6/analyze-results/correlate-results-in-grafana/)
