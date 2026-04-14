@@ -5,12 +5,11 @@ export const options = {
   thresholds: {
     http_req_duration: ["p(95)<=200"],
   },
+  vus: 10, // Start at 10 VUs
   stages: [
-    { duration: "10s", target: 10 }, // Quickly ramp up to 10 users
-    { duration: "1m", target: 10 }, // Hold at 10 users for 1 minute
-    { duration: "30s", target: 30 }, // Ramp up to 30 users
-    { duration: "10s", target: 10 }, // Quickly ramp down to 10 users
-    { duration: "20s", target: 10 }, // Ramp down to 10 users
+    { duration: "30s", target: 10 }, // Ramp up to 10 VUs over 30 seconds
+    { duration: "30s", target: 30 }, // Spike up to 30 VUs
+    { duration: "30s", target: 10 }, // Ramp down to 10 VUs
   ],
 }
 

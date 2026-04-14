@@ -12,13 +12,7 @@ In this exercise, you'll create a basic k6 script with a pass/fail criteria and 
 
 ### Step 1: Create a new test file
 
-Create a new JavaScript file in a folder of your choice. For example, in your terminal:
-
-```bash
-touch spike.js
-```
-
-Then open the file in your IDE.
+Create a new JavaScript file in a folder of your choice, then open the file in your IDE.
 
 ### Step 2: Add the starter code and complete the test script
 
@@ -33,7 +27,7 @@ import http from "k6/http"
 export const options = {
   // 1. Define a threshold that verifies http_req_duration staying within 200ms
   
-  // 2. Use stages to simulate going from stable load to a 3X spike then back down again
+  // 2. Use stages to simulate a 3X spike in traffic
 }
 
 export default function main() {
@@ -49,13 +43,11 @@ export default function main() {
 2. In your terminal, run (replace `spike.js` with your actual filename):
 
    ```bash
-   K6_WEB_DASHBOARD_EXPORT=test-report.html k6 run spike.js
+   K6_WEB_DASHBOARD=true k6 run spike.js
    ```
 
    **Tip:**
-   - Setting `K6_WEB_DASHBOARD=true` visualizes the metrics in a simple web dashboard so you can watch the test live, helpful when modeling the ramping curve.
-   
-   - Setting `K6_WEB_DASHBOARD_EXPORT=spike-report.html` produces a html report of the test result, helpful for analyzing the result. 
+   Setting `K6_WEB_DASHBOARD=true` visualizes the metrics in a simple web dashboard so you can watch the test live. [See docs](https://grafana.com/docs/k6/latest/results-output/web-dashboard/#how-to-use)
    
 
 **Success looks like:**
@@ -63,7 +55,8 @@ export default function main() {
   <img src="./images/spike-illustration.png" alt="Traffic spike Virtual Users chart" width="500"/>
 
 - The end of test Console summary prints a section for the defined thresholds.  
-  <img src="./images/threshold.png" alt="Threshold console summary" />
+  <img src="./images/threshold.png" alt="Threshold console summary" />  
+  _If the threshold was crossed, you will see a ❌ instead of a checkmark_. 
 
 
 ## Lab Answer
