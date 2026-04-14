@@ -63,3 +63,11 @@ export default function main() {
 
 Once you've completed the exercise, you can compare your solution with our sample answer. The reference implementation in [spike.js](./answer/spike.js) shows one way to define a pass/fail criteria and modelling a spike in load.
 
+## Other Resources
+
+Check out the following resources to know more about Grafana k6.
+
+- [Documentation: Grafana k6](https://grafana.com/docs/k6/latest/)
+- [Video: Grafana k6 for Beginners](https://www.youtube.com/watch?v=1mtYVDA2_iQ)
+- [Documentation: Testing guides](https://grafana.com/docs/k6/latest/testing-guides/)
+- [Documentation: More k6 examples](https://grafana.com/docs/k6/latest/examples/)

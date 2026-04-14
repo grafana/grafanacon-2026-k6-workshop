@@ -112,3 +112,4 @@ Check out the following resources to know more about Grafana Cloud k6.
 - [How to: Use the test builder](https://grafana.com/docs/grafana-cloud/testing/k6/author-run/test-builder/)
 - [Documentation: Set up Private Load Zones](https://grafana.com/docs/grafana-cloud/testing/k6/author-run/private-load-zone/)
 - [Documentation: Correlate results in Grafana](https://grafana.com/docs/grafana-cloud/testing/k6/analyze-results/correlate-results-in-grafana/)
+- [Webinar: Performance testing and observability in Grafana Cloud](https://grafana.com/go/webinar/performance-testing-and-observability-in-grafana-cloud-2025-emea/)
