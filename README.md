@@ -3,12 +3,12 @@
 Hands-on lab resources for GrafanaCON Barcelona 2026 - Introduction to k6
 
 Facilitators:
-- Simon Legander
-- Marie Cruz
+- [Simon Legander](https://www.linkedin.com/in/legander/)
+- [Marie Cruz](https://www.linkedin.com/in/mariedesireecruz/)
 
 In-room support staff:
-- Imma Valls
-- Théo Crevon
+- [Imma Valls](https://www.linkedin.com/in/imma-valls/)
+- [Théo Crevon](https://www.linkedin.com/in/theocrevon/)
 
 ## What you will learn
 

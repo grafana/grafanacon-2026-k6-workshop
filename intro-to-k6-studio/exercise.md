@@ -93,3 +93,11 @@ The script is saved under `k6-studio/Scripts/<file-name>`. To open that folder, 
 After the test runs, you'll see output similar to the screenshot below.
 
 <img src="./images/k6-test-run.png" alt="k6 test run output" width="600" />
+
+## Other Resources
+
+Check out the following resources to know more about k6 Studio, how to record browser events, and run a test in Grafana Cloud k6.
+
+- [Documentation: k6 Studio](https://grafana.com/docs/k6/latest/k6-studio/)
+- [How to: Record browser events](https://grafana.com/docs/k6/latest/k6-studio/record-browser-events/)
+- [How to: Run a test in Grafana Cloud k6](https://grafana.com/docs/k6/latest/k6-studio/run-test-in-grafana-cloud/)

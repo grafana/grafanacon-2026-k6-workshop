@@ -85,3 +85,12 @@ export default async function() {
 
 Once you've completed the exercise, you can compare your solution with our sample answer. The reference implementation in [browser-script.js](./answer/browser-script.js) shows one way to automate the login flow and add the required checks.
 
+## Other Resources
+
+Check out the following resources to know more about k6 browser and browser testing in general.
+
+- [Documentation: k6 Browser](https://grafana.com/docs/k6/latest/using-k6-browser/)
+- [Video: Browser testing with k6](https://www.youtube.com/watch?v=N7VJ9X5yAKo)
+- [How to: Hybrid performance with k6 browser](https://grafana.com/docs/k6/latest/using-k6-browser/recommended-practices/hybrid-approach-to-performance/)
+- [How to: Using the page object model pattern to improve your tests](https://grafana.com/docs/k6/latest/using-k6-browser/recommended-practices/page-object-model-pattern/)
+- [How to: Migrate a Playwright script to k6](https://grafana.com/docs/k6/latest/using-k6-browser/migrate-from-playwright-to-k6/)
