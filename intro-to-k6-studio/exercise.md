@@ -11,6 +11,16 @@ In this exercise, you'll use k6 Studio to record the QuickPizza login flow and t
 
 **Need help?** Raise your hand and we'll come assist you!
 
+## Troubleshooting
+
+The first time you launch k6 Studio after installation, you may see a proxy-related error like this:
+
+![](./images/k6-studio-proxy-error.png)
+
+Fully quit the application and open it again. That usually clears it.
+
+## Lab Exercise Steps
+
 ### Step 1: Record the QuickPizza login flow
 
 1. Open the k6 Studio application.
@@ -36,10 +46,17 @@ In this exercise, you'll use k6 Studio to record the QuickPizza login flow and t
 
 Click **Test options** and update the number of virtual users (VUs) and/or the test duration.
 
-> [!NOTE]
-> Use sensible values—avoid very high VU counts or long durations for this lab.
-
 <img src="./images/test-options.png" alt="Test options" width="600" />
+
+> [!NOTE]
+>
+> We don't want very high VU counts or long durations for this workshop (😅) so you can use the following values as a guide:
+>
+> | Executor    | Target VUs | Duration  | Iterations |
+> | ------------| ---------- | --------  | ---------- |
+> | Ramping VUs | 5 - 20  | 30s - 3m30s | - |
+> | Shared iterations | 5 - 20 | - | 50 - 200 |
+
 
 ### Step 4: Export your test locally
 
