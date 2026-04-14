@@ -21,6 +21,8 @@ Open your Grafana Cloud stack in the browser (for example `https://<your-stack>.
 2. Scroll down to the "Interactive Guide: Create a new Scripted Synthetic Monitoring Check" 
 3. Click **Start** and take the tour.
 
+<img src="./images/sm-pathfinder.png" alt="Grafana Cloud Synthetic Monitoring" width="800" />
+
 **Success looks like:** 
 The tour leads you to create your first Synthetic Monitoring Check and run it. By the end of the tour, you see check runs automatically being scheduled in the check dashboard like the following screenshot:
 
