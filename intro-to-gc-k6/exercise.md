@@ -36,13 +36,7 @@ export const options = {
 
 Replace `123456` with your project ID. You can copy it from step 3 of the **Run a test from the CLI** tour.
 
-### Step 3: Take the "Understanding test results" tour
-
-1. Go to **Testing & synthetics > Performance**.
-2. Under **Onboarding**, expand **Run a k6 test**, choose **Understanding test results**, then click **Review**.
-3. Follow the steps in the tour.
-
-### Step 4: Run your test in different load zones
+### Step 3: Run your test in different load zones
 
 How you add load zones depends on whether you’re editing a script on your machine or a test created in Grafana Cloud.
 
@@ -98,12 +92,13 @@ k6 cloud run test-file.js
 
 <img src="./images/gc-test-editor.png" alt="Test editor with distribution" width="600" />
 
-### Load zones reference
+#### Load zones reference
 
 You can use more than two zones; keep percentages split evenly and **totaling 100%**.
 
 For the full list of load zones, see [Use load zones](https://grafana.com/docs/grafana-cloud/testing/k6/author-run/use-load-zones/) in the Grafana Cloud k6 documentation.
 
+<<<<<<< Updated upstream
 ## Other Resources
 
 Check out the following resources to know more about Grafana Cloud k6.
@@ -113,3 +108,11 @@ Check out the following resources to know more about Grafana Cloud k6.
 - [Documentation: Set up Private Load Zones](https://grafana.com/docs/grafana-cloud/testing/k6/author-run/private-load-zone/)
 - [Documentation: Correlate results in Grafana](https://grafana.com/docs/grafana-cloud/testing/k6/analyze-results/correlate-results-in-grafana/)
 - [Webinar: Performance testing and observability in Grafana Cloud](https://grafana.com/go/webinar/performance-testing-and-observability-in-grafana-cloud-2025-emea/)
+=======
+
+### (Bonus) Step 4: Take the "Understanding test results" tour
+
+1. Go to **Testing & synthetics > Performance**.
+2. Under **Onboarding**, expand **Run a k6 test**, choose **Understanding test results**, then click **Start**.
+3. Follow the steps in the tour.
+>>>>>>> Stashed changes
