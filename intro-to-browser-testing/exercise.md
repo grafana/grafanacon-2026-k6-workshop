@@ -85,6 +85,12 @@ export default async function() {
 
 Once you've completed the exercise, you can compare your solution with our sample answer. The reference implementation in [browser-script.js](./answer/browser-script.js) shows one way to automate the login flow and add the required checks.
 
+## (Bonus) Step 4: Record a browser test in k6 Studio
+
+k6 Studio can also record browser events. As a bonus exercise, try recording a browser test using k6 Studio and export the script locally!
+
+We'll be here to help in case you get stuck. 
+
 ## Other Resources
 
 Check out the following resources to know more about k6 browser and browser testing in general.
