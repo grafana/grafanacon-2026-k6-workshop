@@ -46,3 +46,7 @@ k6 run synthetic-check.js
 ## Lab Answer
 
 Once you've completed the exercise, you can compare your solution with our sample answer. The reference implementation in [synthetic-check.js](./answer/synthetic-check.js) shows one way to check the home page reachability and fail based on a check.
+
+---
+
+[← Previous exercise](../3.%20intro-to-browser-testing/) · [Workshop homepage](../) · [Next exercise →](../5.%20intro-to-gc-k6/)

@@ -100,3 +100,7 @@ Check out the following resources to know more about k6 browser and browser test
 - [How to: Hybrid performance with k6 browser](https://grafana.com/docs/k6/latest/using-k6-browser/recommended-practices/hybrid-approach-to-performance/)
 - [How to: Using the page object model pattern to improve your tests](https://grafana.com/docs/k6/latest/using-k6-browser/recommended-practices/page-object-model-pattern/)
 - [How to: Migrate a Playwright script to k6](https://grafana.com/docs/k6/latest/using-k6-browser/migrate-from-playwright-to-k6/)
+
+---
+
+[← Previous exercise](../2.%20intro-to-k6-oss/) · [Workshop homepage](../) · [Next exercise →](../4.%20intro-to-synthetic-monitoring/)

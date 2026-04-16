@@ -101,3 +101,7 @@ Check out the following resources to know more about k6 Studio, how to record br
 - [Documentation: k6 Studio](https://grafana.com/docs/k6/latest/k6-studio/)
 - [How to: Record browser events](https://grafana.com/docs/k6/latest/k6-studio/record-browser-events/)
 - [How to: Run a test in Grafana Cloud k6](https://grafana.com/docs/k6/latest/k6-studio/run-test-in-grafana-cloud/)
+
+---
+
+[Workshop homepage](../) · [Next exercise →](../2.%20intro-to-k6-oss/)

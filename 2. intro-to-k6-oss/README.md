@@ -71,3 +71,7 @@ Check out the following resources to know more about Grafana k6.
 - [Video: Grafana k6 for Beginners](https://www.youtube.com/watch?v=1mtYVDA2_iQ)
 - [Documentation: Testing guides](https://grafana.com/docs/k6/latest/testing-guides/)
 - [Documentation: More k6 examples](https://grafana.com/docs/k6/latest/examples/)
+
+---
+
+[← Previous exercise](../1.%20intro-to-k6-studio/) · [Workshop homepage](../) · [Next exercise →](../3.%20intro-to-browser-testing/)
