@@ -39,12 +39,12 @@ You should have access to your own Grafana Cloud stack, for which you have admin
 | Introduction                                       | Marie and Simon | 5 mins   |                                                          |
 | Lab setup                                          | Marie and Simon | 15 mins  |                                                          |
 | Reliability in the Developer Workflow              | Marie           | 10 mins  |                                                          |
-| Introduction to k6 and k6 Studio                   | Marie           | 30 mins  | [k6 Studio](./intro-to-k6-studio/exercise.md)            |
+| Introduction to k6 and k6 Studio                   | Marie           | 30 mins  | [k6 Studio](./intro-to-k6-studio/)            |
 | Break                                              |                 | 5 mins   |                                                          |
-| Introduction to k6 OSS                             | Simon           | 25 mins  | [k6 OSS](./intro-to-k6-oss/exercise.md)                              |
-| Introduction to Browser Testing                    | Marie           | 20 mins  | [Browser Testing](./intro-to-browser-testing/exercise.md)|
+| Introduction to k6 OSS                             | Simon           | 25 mins  | [k6 OSS](./intro-to-k6-oss/)                              |
+| Introduction to Browser Testing                    | Marie           | 20 mins  | [Browser Testing](./intro-to-browser-testing/)|
 | Break                                              |                 | 5 mins   |                                                          |
-| Introduction to Synthetic Monitoring               | Simon           | 20 mins  | [Synthetic Monitoring](./intro-to-synthetic-monitoring/exercise.md) |
-| Introduction to Grafana Cloud k6                   | Simon           | 20 mins  | [Grafana Cloud k6](./intro-to-gc-k6/exercise.md)         |
-| Introduction to Grafana Cloud Synthetic Monitoring | Simon           | 20 mins  | [Grafana Cloud Synthetic Monitoring](./intro-to-gc-synthetic-monitoring/exercise.md) |
+| Introduction to Synthetic Monitoring               | Simon           | 20 mins  | [Synthetic Monitoring](./intro-to-synthetic-monitoring/) |
+| Introduction to Grafana Cloud k6                   | Simon           | 20 mins  | [Grafana Cloud k6](./intro-to-gc-k6/)         |
+| Introduction to Grafana Cloud Synthetic Monitoring | Simon           | 20 mins  | [Grafana Cloud Synthetic Monitoring](./intro-to-gc-synthetic-monitoring/) |
 | Lab wrap-up                                        | Marie           | 10 mins  |                                                          |
