@@ -27,8 +27,7 @@ There are several ways of achieving this, the two most common patterns are:
 
 Checks and exec are modules that come built-in with the k6 standard library.
 - See docs for [checks](https://grafana.com/docs/k6/latest/using-k6/checks/)
-- See docs for [k6/execution
-](https://grafana.com/docs/k6/latest/using-k6/checks/)
+- See docs for [k6/execution](https://grafana.com/docs/k6/latest/javascript-api/k6-execution/)
 
 
 ```js
@@ -53,7 +52,7 @@ export default function main() {
 
 ### 2. Using `expect`
 
-k6-testing is a functional testing library, available via [jslib.k6.io](https://jslib.k6.io/). It can be directly imported as a dependency in your k6 script like in your k6 script. 
+k6-testing is a functional testing library, available via [jslib.k6.io](https://jslib.k6.io/). It can be directly imported as a dependency in your k6 script. 
 
 - Docs for [k6-testing](https://github.com/grafana/k6-jslib-testing?tab=readme-ov-file#k6-testing)
 - jslib.k6.io is a collection of reusable JavaScript libraries that can be directly imported and used in your k6 scripts.
