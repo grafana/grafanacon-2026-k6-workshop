@@ -64,4 +64,4 @@ Check out the following resources to know more about Grafana Cloud Synthetic Mon
 
 ---
 
-[← Previous exercise](../5.%20intro-to-gc-k6/) · [Workshop homepage](../)
+[← Previous exercise](../5.%20intro-to-gc-k6/) · [Workshop homepage](https://github.com/grafana/grafanacon-2026-k6-workshop)

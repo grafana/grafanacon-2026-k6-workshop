@@ -104,4 +104,4 @@ Check out the following resources to know more about k6 Studio, how to record br
 
 ---
 
-[Workshop homepage](../) · [Next exercise →](../2.%20intro-to-k6-oss/)
+[Workshop homepage](https://github.com/grafana/grafanacon-2026-k6-workshop) · [Next exercise →](../2.%20intro-to-k6-oss/)

@@ -116,4 +116,4 @@ Check out the following resources to know more about Grafana Cloud k6.
 
 ---
 
-[← Previous exercise](../4.%20intro-to-synthetic-monitoring/) · [Workshop homepage](../) · [Next exercise →](../6.%20intro-to-gc-synthetic-monitoring/)
+[← Previous exercise](../4.%20intro-to-synthetic-monitoring/) · [Workshop homepage](https://github.com/grafana/grafanacon-2026-k6-workshop) · [Next exercise →](../6.%20intro-to-gc-synthetic-monitoring/)

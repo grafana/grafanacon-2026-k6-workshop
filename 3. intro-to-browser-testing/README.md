@@ -103,4 +103,4 @@ Check out the following resources to know more about k6 browser and browser test
 
 ---
 
-[← Previous exercise](../2.%20intro-to-k6-oss/) · [Workshop homepage](../) · [Next exercise →](../4.%20intro-to-synthetic-monitoring/)
+[← Previous exercise](../2.%20intro-to-k6-oss/) · [Workshop homepage](https://github.com/grafana/grafanacon-2026-k6-workshop) · [Next exercise →](../4.%20intro-to-synthetic-monitoring/)

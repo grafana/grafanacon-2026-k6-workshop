@@ -74,4 +74,4 @@ Check out the following resources to know more about Grafana k6.
 
 ---
 
-[← Previous exercise](../1.%20intro-to-k6-studio/) · [Workshop homepage](../) · [Next exercise →](../3.%20intro-to-browser-testing/)
+[← Previous exercise](../1.%20intro-to-k6-studio/) · [Workshop homepage](https://github.com/grafana/grafanacon-2026-k6-workshop) · [Next exercise →](../3.%20intro-to-browser-testing/)

@@ -49,4 +49,4 @@ Once you've completed the exercise, you can compare your solution with our sampl
 
 ---
 
-[← Previous exercise](../3.%20intro-to-browser-testing/) · [Workshop homepage](../) · [Next exercise →](../5.%20intro-to-gc-k6/)
+[← Previous exercise](../3.%20intro-to-browser-testing/) · [Workshop homepage](https://github.com/grafana/grafanacon-2026-k6-workshop) · [Next exercise →](../5.%20intro-to-gc-k6/)
