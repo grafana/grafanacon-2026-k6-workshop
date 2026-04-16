@@ -25,18 +25,18 @@ export default async function() {
   try {
     await page.goto(BASE_URL);
 
-    const loginButton = await page.locator('//a[. = "Login"]');
+    const loginButton = page.locator('//a[. = "Login"]');
     await loginButton.click();
 
-    const usernameField = await page.locator('#username');
+    const usernameField = page.locator('#username');
     await usernameField.type('default', { delay: 30 });
-    const passwordField = await page.locator('#password');
+    const passwordField = page.locator('#password');
     await passwordField.type('12345678', { delay: 30 });
 
-    const signInButton = await page.locator('//button[. = "Sign in"]');
+    const signInButton = page.locator('//button[. = "Sign in"]');
     await signInButton.click();
 
-    const logoutButton = await page.locator('//button[. = "Logout"]');
+    const logoutButton = page.locator('//button[. = "Logout"]');
     await logoutButton.waitFor({ state: 'visible' });
 
     expect(logoutButton).toBeVisible();

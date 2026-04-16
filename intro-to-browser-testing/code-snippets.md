@@ -21,7 +21,7 @@ Use these selectors with `page.locator()` to find elements on the QuickPizza pag
 Use `page.locator()` to find an element, then call `.click()`:
 
 ```js
-const loginButton = await page.locator('//a[. = "Login"]');
+const loginButton = page.locator('//a[. = "Login"]');
 await loginButton.click();
 ```
 
@@ -30,7 +30,7 @@ await loginButton.click();
 Use `.type()` to enter text into username and password fields. See the [locator.type() docs](https://grafana.com/docs/k6/latest/javascript-api/k6-browser/locator/type/) for more options.
 
 ```js
-const usernameField = await page.locator('#username');
+const usernameField = page.locator('#username');
 await usernameField.type('default', { delay: 30 });
 ```
 
@@ -49,7 +49,7 @@ import { expect } from 'https://jslib.k6.io/k6-testing/0.6.1/index.js';
 **Step 2:** After the login completes, add checks for the logout button. You may want to wait for it to be visible first:
 
 ```js
-const logoutButton = await page.locator('//button[. = "Logout"]');
+const logoutButton = page.locator('//button[. = "Logout"]');
 await logoutButton.waitFor({ state: 'visible' });
 
 expect(logoutButton).toBeVisible();
