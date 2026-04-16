@@ -1,3 +1,4 @@
+// Uncomment the following imports if using the checks + exec approach instead of expect:
 // import { check } from "k6"
 // import exec from "k6/execution"
 import http from "k6/http"
