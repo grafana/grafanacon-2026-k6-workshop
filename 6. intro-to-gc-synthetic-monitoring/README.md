@@ -45,7 +45,7 @@ Follow the same steps you took in the Interactive guide, but this time select th
 
 ### Step 2: Re-using the QuickPizza Browser login test
 
-In the Check creation step where you need to input a Script, take the QuickPizza login test that you created in the earlier exercise [browser-script.js](../intro-to-browser-testing/answer/browser-script.js).
+In the Check creation step where you need to input a Script, take the QuickPizza login test that you created in the earlier exercise [browser-script.js](../3.%20intro-to-browser-testing/answer/browser-script.js).
 
 ### Step 3: Complete the Check creation wizard
 

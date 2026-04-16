@@ -9,14 +9,14 @@ Hands-on lab resources for GrafanaCON Barcelona 2026 - Introduction to k6
 | Introduction                                       | Marie and Simon | 5 mins   |                                                          |
 | Lab setup                                          | Marie and Simon | 15 mins  |                                                          |
 | Reliability in the Developer Workflow              | Marie           | 10 mins  |                                                          |
-| Introduction to k6 and k6 Studio                   | Marie           | 30 mins  | [k6 Studio](./intro-to-k6-studio/)            |
+| Introduction to k6 and k6 Studio                   | Marie           | 30 mins  | [k6 Studio](./1.%20intro-to-k6-studio/)            |
 | Break                                              |                 | 5 mins   |                                                          |
-| Introduction to k6 OSS                             | Simon           | 25 mins  | [k6 OSS](./intro-to-k6-oss/)                              |
-| Introduction to Browser Testing                    | Marie           | 20 mins  | [Browser Testing](./intro-to-browser-testing/)|
+| Introduction to k6 OSS                             | Simon           | 25 mins  | [k6 OSS](./2.%20intro-to-k6-oss/)                              |
+| Introduction to Browser Testing                    | Marie           | 20 mins  | [Browser Testing](./3.%20intro-to-browser-testing/)|
 | Break                                              |                 | 5 mins   |                                                          |
-| Introduction to Synthetic Monitoring               | Simon           | 20 mins  | [Synthetic Monitoring](./intro-to-synthetic-monitoring/) |
-| Introduction to Grafana Cloud k6                   | Simon           | 20 mins  | [Grafana Cloud k6](./intro-to-gc-k6/)         |
-| Introduction to Grafana Cloud Synthetic Monitoring | Simon           | 20 mins  | [Grafana Cloud Synthetic Monitoring](./intro-to-gc-synthetic-monitoring/) |
+| Introduction to Synthetic Monitoring               | Simon           | 20 mins  | [Synthetic Monitoring](./4.%20intro-to-synthetic-monitoring/) |
+| Introduction to Grafana Cloud k6                   | Simon           | 20 mins  | [Grafana Cloud k6](./5.%20intro-to-gc-k6/)         |
+| Introduction to Grafana Cloud Synthetic Monitoring | Simon           | 20 mins  | [Grafana Cloud Synthetic Monitoring](./6.%20intro-to-gc-synthetic-monitoring/) |
 | Lab wrap-up                                        | Marie           | 10 mins  |                                                          |
 
 ## Facilitators and in-room support staff
