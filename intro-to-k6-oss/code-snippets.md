@@ -1,8 +1,8 @@
 # k6 Code Snippets
 
-Quick reference for the k6 OSS exercise. Copy these snippets into your script as you work through the excersise.
+Quick reference for the k6 OSS exercise. Copy these snippets into your script as you work through the exercise.
 
-## Tresholds
+## Thresholds
 
 ```js
 export const options = {
